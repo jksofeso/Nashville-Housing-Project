@@ -97,7 +97,7 @@ SET SoldAsVacant = CASE WHEN SoldAsVacant = 'Y' THEN 'Yes'
 	   END
 
 
--- Delete Unused Columns
+-- Delete unused columns
 SELECT *
 FROM NashvilleHousing
 
