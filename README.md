@@ -1,1 +1,9 @@
 # Nashville-Housing-Project
+
+In my SQL project focused on a Nashville housing dataset, I embarked on an extensive data cleaning journey to tackle the numerous challenges posed by missing values in columns and inconsistent formatting across the dataset. The missing values were strategically handled using a JOIN clause to accurately replace the missing data points. This process not only allowed for a more complete dataset, but also minimized the impact of missing values on subsequent analyses.
+
+Moreover, the dataset exhibited inconsistencies in formatting, including variations in date formats. To address these issues, I applied data transformation techniques, utilizing SQL functions and expressions, to standardize the formatting and ensure consistency throughout the dataset. I employed the DATE and CONVERT() functions to convert dates into the standardized date format.
+
+The dataset contained a single column that combined various components of an address, such as street name, city, and state, into a single field. This posed challenges for analysis and hindered data organization. To tackle this problem, extensive data cleaning techniques were applied using SQL. String manipulation functions and methods were utilized to extract the individual address components from the combined field. By employing these techniques, the address information was successfully separated into distinct columns, resulting in a more structured and organized dataset.
+
+The data cleaning efforts resulted in a significantly improved Nashville housing dataset, devoid of missing values and better formatting across all relevant fields. This clean and standardized dataset will serve as a solid foundation for subsequent data analysis tasks, including exploratory data analysis, predictive modeling, and business intelligence reporting. Furthermore, it empowers meaningful insights and robust decision-making in the realm of housing trends and patterns in Nashville.
